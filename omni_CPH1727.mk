@@ -17,6 +17,6 @@
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/oppo/A37/full_jimmy.mk)
+$(call inherit-product, device/oppo/CPH1727/full_CPH1727.mk)
 
-PRODUCT_NAME := omni_A37
+PRODUCT_NAME := omni_CPH1727
