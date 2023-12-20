@@ -11,10 +11,6 @@ PRODUCT_SHIPPING_API_LEVEL := 25
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.mt6763:$(TARGET_COPY_OUT_RECOVERY)/root/fstab.mt6763
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/kernel:kernel
-
 # USB
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.sys.usb.storage.type=mtp
