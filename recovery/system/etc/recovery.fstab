@@ -1,0 +1,8 @@
+#
+# Android fstab file.
+#
+# <src>						<mnt_point>			<type>		<mnt_flags and options>													<fs_mgr_flags>
+system						/system				ext4		ro															            wait
+
+# Data
+/dev/block/platform/bootdevice/by-name/userdata         /data               ext4       noatime,nosuid,nodev,noauto_da_alloc,async_discard,errors=panic wait,check,resize,forceencrypt=/dev/block/platform/bootdevice/by-name/metadata,
